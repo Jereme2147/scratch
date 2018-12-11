@@ -52,9 +52,9 @@ $(document).ready(function(){
                 marginTop: "5vh"
             }, 500);
             /* toggles photo for 1 second */
-            $('#back-photo').html(`<img src="surprised.png" alt="my picture" id="photo">`);
+            $('#back-photo').html(`<img src="./landing-img/surprised.png" alt="my picture" id="photo">`);
             setTimeout(() => {
-                $('#back-photo').html(`<img src="noexpression.png" alt="my picture" id="photo">`); 
+                $("#back-photo").html(`<img src="./landing-img/noexpression.png" alt="my picture" id="photo">`); 
             }, 1000);
         });
     };

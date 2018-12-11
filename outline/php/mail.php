@@ -6,5 +6,5 @@
     $message = $_POST['message'];
     echo "Email $email First $first Last $last Business $business Message $message";
     mail('jereme.daniels@gmail.com', 'Customer', $message);
-    header("Location: ../contact.php");
+    header("Location: ./contact.php");
 ?>

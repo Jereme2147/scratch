@@ -1,5 +1,3 @@
-/* remove after confirming medium isn't needed */
-/* @media (max-width: 420px) { */
 @media (max-width: 500px) {
 
     #contact {
@@ -53,9 +51,7 @@
         justify-content: center;
         width:25vw;
         min-width: 265px;
-        /* height: 150px; */
         height: 8vh;
-        /* background-color: #4F5165; */
         border-radius: 10px;
         box-shadow: 5px 5px 12px #474044;
         color: #293132;
@@ -66,7 +62,6 @@
         margin-bottom: 5px;
         padding-bottom: 5px;
         margin-top: 5px;
-        /* padding: 5px; */
     }
     .popUp i {
         padding-top: 15px;
