@@ -28,7 +28,7 @@
             </a>
             <a href="extra.php" class="not-home" id="extra">
                 <div class="menu" >
-                    <li>Extra</li>
+                    <li>Examples</li>
                 </div>
             </a>
         </div>

@@ -1,11 +1,11 @@
 /* style sheet for content pages */
 #about {
-    color: #EBECEC;
+    /* color: #EBECEC; */
     padding: 20px 10px 10px 10px;
-    text-shadow: 1px 1px 1px rgba(79, 81, 101, 1);
-    border-bottom-style: solid;
+    /* text-shadow: 1px 1px 1px rgba(79, 81, 101, 1); */
+    /* border-bottom-style: solid;
     border-bottom-color: rgba(79, 81, 101, 1);
-    border-bottom-width: 1px; 
+    border-bottom-width: 1px;  */
 }
 #about p {
     font-size: 25px;
@@ -25,43 +25,68 @@
     color: #EBECEC;
     margin-top: 20px;
     font-size: 20px;
-    text-shadow: 1px 1px 1px rgba(79, 81, 101, 1);
+   
 
 }
 #contact-stuff {
     display: flex;
     justify-content: center;
     color: #EBECEC;
-    padding: 20px 10px 10px 10px;
-    text-shadow: 1px 1px 1px rgba(79, 81, 101, 1);
+    /* padding: 20px 10px 10px 10px; */
+
 
 }
 #contact-stuff p {
     font-size: 25px;
 }
 .div-style {
-    padding-bottom: 30px;
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    word-wrap: normal;
+    color: #EBECEC;
+    text-shadow: 1px 1px 1px rgba(79, 81, 101, 1);
+    padding-bottom: 50px;
+    /* padding: 0 30px 50px 30px; */
+    margin: 0 30px 50px 30px;
     border-bottom-style: solid;
     border-bottom-color: rgba(79, 81, 101, 1);
     border-bottom-width: 1px; 
 }
 #email-form {
-    width: 100%;
-    padding: 10px;
+    /* width: 100%; */
+    /* padding: 10px; */
     margin-top: 15px;
+    /* margin-right: 20px; */
 
 }
 #examples {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    /* flex-flow: row wrap; */
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
 
 }
 #examples img {
+    /* height: 20vw; */
     height: 20vw;
-    padding: 20px;
-    /* margin: 20px; */
-    
+    /* width: 100%;
+    height: auto; */
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: -2px -2px 1px rgba(79, 81, 101, 1),
+                5px 5px 1px rgba(41, 49, 50, 1);
+
+}
+#examples img:hover {
+    box-shadow: -1px -1px 1px rgba(80, 216, 215, 1),
+                3px 3px 1px rgba(41, 49, 50, 1);
+}
+.img-divs {
+    text-align: center;
+    /* width: 50%; */
 }
 #mail-form {
     display: flex;
@@ -130,7 +155,28 @@
     font-size: 25px;
     color: #EBECEC;
     padding: 20px 10px 10px 10px;
-    text-shadow: 1px 1px 1px rgba(79, 81, 101, 1);
+    /* text-shadow: 1px 1px 1px rgba(79, 81, 101, 1); */
 
 }
-/* ********************************* */
+/* ******SMALL AND MEDIUM SCREENS HERE          ***************************************************** */
+@media (max-width: 800px) {
+    .div-style {
+        /* width: 100%; */
+        display: flex;
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+        word-wrap: normal;
+        color: #EBECEC;
+        text-shadow: 1px 1px 1px rgba(79, 81, 101, 1);
+        padding-bottom: 50px;
+        /* padding: 0 30px 50px 30px; */
+        margin: 0 30px 50px 30px;
+        border-bottom-style: solid;
+        border-bottom-color: rgba(79, 81, 101, 1);
+        border-bottom-width: 1px; 
+    }
+    #examples img {
+        width: 90%;
+        height: auto; 
+    }
+}

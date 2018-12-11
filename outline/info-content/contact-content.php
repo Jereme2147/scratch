@@ -8,12 +8,12 @@
         <i class="fas fa-envelope">jereme.daniels@gmail.com</i>
         <i class="fab fa-twitter"></i> -->
     </div>
-    <div id="contact-stuff">
+    <div id="contact-stuff" class="div-style">
         <p>Use the form below to send us a message. Alternatively call or use the provided links. 
              We will be in contact quickly. </p>
     </div>
     <div id="email-form" class="div-style">
-        <form id="mail-form" action="./php/mail.php" method="POST">
+        <form id="mail-form" action="../php/mail.php" method="POST">
             <input class="inputs"id="first" type="text" name="first" placeholder="First Name">
             <input class="inputs"type="text" name="last" placeholder="Last Name">
             <input class="inputs"type="text" name="business" placeholder="Business">
