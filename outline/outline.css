@@ -1,0 +1,135 @@
+/* style sheet for content pages */
+#about {
+    color: #EBECEC;
+    padding: 20px 10px 10px 10px;
+    text-shadow: 1px 1px 1px rgba(79, 81, 101, 1);
+    border-bottom-style: solid;
+    border-bottom-color: rgba(79, 81, 101, 1);
+    border-bottom-width: 1px; 
+}
+#about p {
+    font-size: 25px;
+    padding: 5px 0 5px 0;
+}
+#contents {
+    display: flex;
+    flex-direction: column;
+}
+#contact-icons {
+    /* height: 10%; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: #EBECEC;
+    margin-top: 20px;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px rgba(79, 81, 101, 1);
+
+}
+#contact-stuff {
+    display: flex;
+    justify-content: center;
+    color: #EBECEC;
+    padding: 20px 10px 10px 10px;
+    text-shadow: 1px 1px 1px rgba(79, 81, 101, 1);
+
+}
+#contact-stuff p {
+    font-size: 25px;
+}
+.div-style {
+    border-bottom-style: solid;
+    border-bottom-color: rgba(79, 81, 101, 1);
+    border-bottom-width: 1px; 
+}
+#email-form {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+
+}
+#examples {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+#examples img {
+    height: 50vw;
+    padding: 20px;
+    /* margin: 20px; */
+    
+}
+#mail-form {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#mail-form input{
+    width: 40%;
+    min-width: 200px;
+    /* height: 30px; */
+    font-size: 16px;
+    margin: 10px;
+    background-color: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #EBECEC;
+    outline: none;
+}
+#mail-form input:hover{
+    box-shadow: 2px 2px 1px rgba(79, 81, 101, 1);
+}
+#mail-form input:focus{
+    box-shadow: 2px 2px 1px rgba(79, 81, 101, 1);
+    background-color: rgb(99, 138, 182);
+}
+#mail-form textarea {
+    width: 90%;
+    font-size: 16px;
+    margin: 10px;
+    background-color: transparent;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom-color: #EBECEC;
+    outline: none;
+   
+}
+#mail-form textarea:hover{
+    box-shadow: 2px 2px 1px rgba(79, 81, 101, 1);
+    
+}
+#mail-form textarea:focus{
+    background-color: rgb(99, 138, 182);
+    box-shadow: 2px 2px 1px rgba(79, 81, 101, 1);
+}
+::placeholder{
+    color: rgba(79, 81, 101, 1);
+}
+#submit {
+    height: 30px;
+    width: 20%; 
+    background-color: rgba(79, 81, 101, 1);
+    box-shadow: 2px 2px 1px #EBECEC;
+    color: #EBECEC;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px rgba(80, 216, 215, 1);
+    border-style: none;
+    border-radius: 5px;
+    
+}
+#pricing-content p {
+    font-size: 25px;
+    color: #EBECEC;
+    padding: 20px 10px 10px 10px;
+    text-shadow: 1px 1px 1px rgba(79, 81, 101, 1);
+
+}
+/* ********************************* */
