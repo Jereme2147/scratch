@@ -1,15 +1,16 @@
 <?php
     $contact = '
     <div id="contact-icons"class="div-style">
+        <h1 class="div-titles">Contacts</h1>
         <p>828-898-2942</p>
         <p>jereme.daniels@gmail.com</p>
         <i class="fab fa-twitter">  @jd2147</i>
         <!-- <i class="fas fa-phone">828-898-2942</i>
         <i class="fas fa-envelope">jereme.daniels@gmail.com</i>
         <i class="fab fa-twitter"></i> -->
-    </div>
-    <div id="contact-stuff" class="div-style">
-        <p>Use the form below to send us a message. Alternatively call or use the provided links. 
+<!--    </div>
+    <div id="contact-stuff" class="div-style"> -->
+        <p><br><br>Use the quick contact form below to send us a message. Alternatively call or use the provided links. 
              We will be in contact quickly. </p>
     </div>
     <div id="email-form" class="div-style">

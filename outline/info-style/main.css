@@ -1,13 +1,18 @@
 
 @media (min-width: 701px) {
+body {
+    background-color:  #EBECEC;
+    background-image: url("../../styled-keyboard.png");
+}
 #container {
     /* display: flex; */
     width: 100vw;
     height: 100vh;
-    background-color: rgba(80, 216, 215, 1);
+    /* background-image: url("../../img_1606.png"); */
+    /* background-color: black; */
 }
 #contents {
-    background-color: #547AA5;
+    /* background-color: #547AA5; */
     width: 60vw;
     float: right;
     /* left: 40vw; */
@@ -18,6 +23,7 @@
     justify-content: flex-end; 
 }
 #title {
+    background-color: #547AA5;
     display: flex;
     justify-content: flex-end;
     align-self: flex-end;
@@ -40,6 +46,7 @@
     padding: 10px 10px 0 0;
 }
 #nav a {
+    background-color: #547AA5;
     display: flex;
     justify-content: flex-end;
     align-self: flex-end;
@@ -65,7 +72,7 @@
     justify-content: space-around;
     width: 40vw;
     height: 100%;
-    background-color: #547AA5;
+    /* background-color: #547AA5; */
 }
 /* #nav a:focus {
     background-color: black;
@@ -84,39 +91,3 @@
 }
 }
 
-/* 
-#contents {
-    display: flex;
-}
-#email-form {
-    width: 100%;
-    padding: 10px;
-}
-#mail-form {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-#mail-form input{
-    width: 40%;
-    min-width: 200px;
-    height: 30px;
-    font-size: 16px;
-    margin: 10px;
-    background-color: #EBECEC;
-    border-style: solid;
-    border-radius: 5px;
-    border-width: 1px;
-    border-color: rgba(80, 216, 215, 1)
-  
-}
-#mail-form textarea {
-    width: 90%;
-    font-size: 16px;
-    margin: 10px;
-    background-color: #EBECEC;
-}
-#submit {
-    height: 60px;
-    width: 20%; 
-} */

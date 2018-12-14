@@ -1,29 +1,26 @@
 /* style sheet for content pages */
-#about {
-    /* color: #EBECEC; */
-    padding: 20px 10px 10px 10px;
-    /* text-shadow: 1px 1px 1px rgba(79, 81, 101, 1); */
-    /* border-bottom-style: solid;
-    border-bottom-color: rgba(79, 81, 101, 1);
-    border-bottom-width: 1px;  */
-}
-#about p {
-    font-size: 25px;
-    padding: 5px 0 5px 0;
+.border-div {/* this is removed right now */
+    background-color: black;
+    width: 100%;
+    height: 40px;
+    background: -moz-linear-gradient(top, #50d8d7 1%, #4f5165 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #50d8d7 1%,#4f5165 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(84, 122, 165, 1) 35%,rgba(80, 216, 215, 1)50%, rgba(84, 122, 165, 1) 65%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#50d8d7', endColorstr='#4f5165',GradientType=0 ); /* IE6-9 */
+
 }
 #contents {
     display: flex;
     flex-direction: column;
 }
 #contact-icons {
-    /* height: 10%; */
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     color: #EBECEC;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     font-size: 20px;
    
 
@@ -32,7 +29,6 @@
     display: flex;
     justify-content: center;
     color: #EBECEC;
-    /* padding: 20px 10px 10px 10px; */
 
 
 }
@@ -40,40 +36,33 @@
     font-size: 25px;
 }
 .div-style {
-    display: flex;
-    /* flex-direction: column; */
-    /* flex-wrap: wrap; */
+    font-size: 25px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(79, 81, 101, 1);
+    border-bottom-width: 1px;  
+    background-color: #547AA5;
     word-wrap: normal;
     color: #EBECEC;
     text-shadow: 1px 1px 1px rgba(79, 81, 101, 1);
-    padding-bottom: 50px;
-    /* padding: 0 30px 50px 30px; */
-    margin: 0 30px 50px 30px;
-    border-bottom-style: solid;
-    border-bottom-color: rgba(79, 81, 101, 1);
-    border-bottom-width: 1px; 
+    padding: 50px;
+    margin: 0 35px 0 35px;
+}
+.div-titles {
+    text-align: center;
+    padding: 0 0 20px 0;
 }
 #email-form {
-    /* width: 100%; */
-    /* padding: 10px; */
-    margin-top: 15px;
-    /* margin-right: 20px; */
-
+    /* margin-top: 15px; */
 }
 #examples {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /* flex-flow: row wrap; */
-    /* justify-content: space-around; */
     justify-content: space-evenly;
 
 }
 #examples img {
-    /* height: 20vw; */
     height: 20vw;
-    /* width: 100%;
-    height: auto; */
     margin: 20px;
     border-radius: 15px;
     box-shadow: -2px -2px 1px rgba(79, 81, 101, 1),
@@ -86,7 +75,6 @@
 }
 .img-divs {
     text-align: center;
-    /* width: 50%; */
 }
 #mail-form {
     display: flex;
@@ -97,7 +85,6 @@
 #mail-form input{
     width: 40%;
     min-width: 200px;
-    /* height: 30px; */
     font-size: 16px;
     margin: 10px;
     background-color: transparent;
@@ -155,25 +142,21 @@
     font-size: 25px;
     color: #EBECEC;
     padding: 20px 10px 10px 10px;
-    /* text-shadow: 1px 1px 1px rgba(79, 81, 101, 1); */
 
 }
 /* ******SMALL AND MEDIUM SCREENS HERE          ***************************************************** */
 @media (max-width: 800px) {
     .div-style {
-        /* width: 100%; */
         display: flex;
         flex-direction: column;
-        /* flex-wrap: wrap; */
         word-wrap: normal;
         color: #EBECEC;
         text-shadow: 1px 1px 1px rgba(79, 81, 101, 1);
-        padding-bottom: 50px;
-        /* padding: 0 30px 50px 30px; */
-        margin: 0 30px 50px 30px;
         border-bottom-style: solid;
         border-bottom-color: rgba(79, 81, 101, 1);
         border-bottom-width: 1px; 
+        margin: 5px 10px 5px 10px;
+        padding: 5px 5px 5px 5px;
     }
     #examples img {
         width: 90%;

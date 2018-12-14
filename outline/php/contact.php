@@ -8,9 +8,13 @@
     include "../info-content/about-content.php";
     include "../info-content/pricing-content.php";
     include "../info-content/extra-content.php"; 
+    include "border-div.php";
     echo $contact;
+    // echo $border; 
     echo $about;
+    // echo $border;
     echo $pricing;
+    // echo $border;
     echo $extra;
     include_once "../info-footer.php";
 
