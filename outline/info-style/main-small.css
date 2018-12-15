@@ -50,6 +50,7 @@
     }
     #title h1 {
         font-size: 8vh;
+        color: rgba(41, 49, 50, 1);
     }
     .not-home {
         display: flex;
@@ -58,8 +59,8 @@
         align-items: center;
         width: 23vw;
         list-style: none;
-        color:  #EBECEC;
-        text-shadow: 2px 2px 1px rgba(41, 49, 50, 1);
+        color:  rgba(41, 49, 50, 1);
+        text-shadow: 2px 2px 1px #EBECEC;;
         /* text-shadow: 3px 3px 4px #547AA5; */
         font-size: 20px;
         font-weight: bolder;
@@ -86,6 +87,7 @@
     }
     #title h1 {
         font-size: 80px;
+        /* color: rgba(41, 49, 50, 1); */
     }
     .not-home div{
         display: flex;
