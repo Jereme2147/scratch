@@ -1,5 +1,5 @@
 
-@media (min-width: 850px) {
+@media (min-width: 701px) {
 body {
     background-color:  #EBECEC;
     background-image: url("../../styled-keyboard.png");
@@ -26,12 +26,10 @@ body {
     background-color: #547AA5;
     display: flex;
     justify-content: flex-end;
-    align-items: center;
     align-self: flex-end;
     height: 15vh;
     width: 90%;
-    /* font-size: 11vh; */
-    
+    font-size: 11vh;
     list-style: none;
     box-shadow: 0px 3px 1px #4F5165,
                 0px -1px 1px rgba(80, 216, 215, 1),
@@ -44,7 +42,6 @@ body {
     margin: 0 5px 0 0;
 }
 #title h1 {
-    font-size: 10vw;  /* ************ */
     /* margin: 0 5px 0 0px; */
     padding: 10px 10px 0 0;
 }
@@ -52,12 +49,10 @@ body {
     background-color: #547AA5;
     display: flex;
     justify-content: flex-end;
-    align-items: center;
     align-self: flex-end;
     height: 15vh;
     width: 90%;
-    /* font-size: 9vh; */
-    font-size:7vw;  /* ************ */
+    font-size: 9vh;
     box-shadow: 0px 3px 1px #4F5165,
                 0px -1px 1px rgba(80, 216, 215, 1),
                 3px 0px 1px #4F5165, 
@@ -79,7 +74,9 @@ body {
     height: 100%;
     /* background-color: #547AA5; */
 }
-
+/* #nav a:focus {
+    background-color: black;
+} */
 #nav a:hover {
     box-shadow: 0px 1px 1px #4F5165,
                 1px 0px 1px #4F5165, 
@@ -94,11 +91,3 @@ body {
 }
 }
 
-@media (min-width: 1200px) {
-    #nav a {
-        font-size: 10vh; 
-    }
-    #title h1 {
-        font-size: 13vh;  /* ************ */
-    }
-}

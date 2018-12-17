@@ -67,7 +67,7 @@ body {
 
 .popUp {
     display: none;
-    width: 30vw;
+    width: 35vw;
     height: 10vh;
     border-radius: 10px;
     box-shadow: 5px 5px 12px #474044;
@@ -82,7 +82,7 @@ body {
     text-shadow: 0px 1px 1px rgba(80, 216, 215, 1);
 }
 .popUp i {
-    padding-top: 25px;
+    padding-top: 3vh;
 }
 #pricing {
     margin: 0; 
