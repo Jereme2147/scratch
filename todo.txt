@@ -1,9 +1,3 @@
-check send button again
-    may just not be loading the edited page.
+
 menu hightlights
-contact email form -
-    works on contact page, but not on others.
-
-iPad landing Title position Safari. 
-iphone landscape landing page - link centering - does show PC browser.
-
+phone number - mobile

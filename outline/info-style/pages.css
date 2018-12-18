@@ -125,6 +125,8 @@
     color: rgba(79, 81, 101, 1);
 }
 #submit {
+    display: flex;
+    justify-content: center;
     height: 30px;
     width: 20%; 
     background-color: rgba(79, 81, 101, 1);
@@ -136,6 +138,9 @@
     border-style: none;
     border-radius: 5px;
     
+}
+#phone {
+    text-decoration: none; 
 }
 #pricing-content p {
     font-size: 25px;

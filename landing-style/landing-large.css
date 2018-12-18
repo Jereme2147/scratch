@@ -5,7 +5,7 @@ body {
 }
 
 /* @media (min-width: 1025px) { */
-    @media (min-width: 501px) {
+@media (min-width: 701px) {
 #contact {
     margin: 0;
     position: absolute;
@@ -44,17 +44,20 @@ body {
 }
 #photo {
     width: 50vh;
+    max-width: 510px;
 
 }
 .photo-div {
     margin: 0;
     position: absolute;
-    top: 50%;
+    top: 70%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     height: 50vh;
     width: 50vh;
+    max-height: 490px;
+    max-width: 490px;
     border-style: solid;
     border-radius: 50%;
     border-color: rgba(79, 81, 101, 1);
@@ -68,6 +71,7 @@ body {
 .popUp {
     display: none;
     width: 35vw;
+    min-width: min-content;
     height: 10vh;
     border-radius: 10px;
     box-shadow: 5px 5px 12px #474044;
@@ -109,5 +113,10 @@ body {
     }
     .popUp i {
         padding-top: 5px;
+    }
+}
+@media (min-width: 701px) and (max-width: 900px){
+    #title {
+        font-size: 70px;
     }
 }

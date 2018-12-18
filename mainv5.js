@@ -1,7 +1,7 @@
 
 $(document).ready(function(){
-    let large = window.matchMedia("(min-width: 501px)");
-    let small = window.matchMedia("(max-width: 500px)");
+    let large = window.matchMedia("(min-width: 701px)");
+    let small = window.matchMedia("(max-width: 700px)");
    /* large media  shows popups and animates their fade into position on page*/
     if (large.matches) {
         $('.photo-div').mouseenter(function () { hoverOrClick(); });
@@ -22,7 +22,7 @@ $(document).ready(function(){
             /* toggles photo for 1 second */
             $('#back-photo').html(`<img src="./landing-img/surprised.png" alt="my picture" id="photo">`);
             setTimeout(() => {
-                $("#back-photo").html(`<img src="./landing-img/noexpression.png" alt="my picture" id="photo">`); 
+                $('#back-photo').html(`<img src="./landing-img/noexpression.png" alt="my picture" id="photo">`); 
             }, 1000);
         });
     };
