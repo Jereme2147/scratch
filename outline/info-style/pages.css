@@ -79,7 +79,9 @@
     justify-content: space-around;
     flex-wrap: wrap;
 }
-
+#list {
+    padding-left: 40px;
+}
 #mail-form input{
     width: 40%;
     min-width: 200px;
@@ -141,6 +143,7 @@
 }
 #phone {
     text-decoration: none; 
+    color: #EBECEC;
 }
 #pricing-content p {
     font-size: 25px;

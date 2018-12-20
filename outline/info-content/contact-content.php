@@ -8,8 +8,8 @@
         
 <!--    </div>
     <div id="contact-stuff" class="div-style"> -->
-        <p><br><br>Use the quick contact form below to send us a message. Alternatively call or use the provided links. 
-             We will be in contact quickly. </p>
+        <p><br><br>Use the quick contact form below to send me a message. Alternatively call or use the provided links. 
+             I will be in contact quickly. </p>
     </div>
     <div id="email-form" class="div-style">
         <form id="mail-form" action="../php/mail.php" method="POST">
