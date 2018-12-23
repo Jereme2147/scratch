@@ -6,7 +6,7 @@
             <div id="title">
                 <h1>Scratch</h1>
             </div>
-            <a href="/mysite/" id="homeA">
+            <a href="../../" id="homeA">
                 <div class="menu" id="home">
                     <li>Home</li>
                 </div>

@@ -1,3 +1,11 @@
 
 menu hightlights
 
+
+links + function (php)
+
+New picture for landing.
+
+Landing spacing.
+
+Meta data / SEO

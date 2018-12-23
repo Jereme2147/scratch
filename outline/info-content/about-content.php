@@ -16,6 +16,9 @@
         look and work exactly as you’d like on small and large screens.
     </p><br><br>
     <p>
+        All websites will come with personalized email for your business.  yourname@yourbusiness.com.
+    </p><br><br>
+    <p>
         As the customer, you\'ll have the option to have access to your code or the convenience of total site maintenance by me. 
     </p>
 </div>';

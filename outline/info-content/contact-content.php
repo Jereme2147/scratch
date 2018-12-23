@@ -3,7 +3,7 @@
     <div id="contact-icons"class="div-style">
         <h1 class="div-titles">Contacts</h1>
         <p id="phone">call 828-898-2942</p>
-        <p>jereme.daniels@gmail.com</p>
+        <p>info@scratch-page.com</p>
         <i class="fab fa-twitter">  @jd2147</i>
         
 <!--    </div>

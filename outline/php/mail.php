@@ -4,7 +4,7 @@
     $last = $_POST['last'];
     $business = $_POST['business'];
     $message = $_POST['message'];
-    echo "Email $email First $first Last $last Business $business Message $message";
-    mail('jereme.daniels@gmail.com', 'Customer', $message);
+    // echo "Email $email First $first Last $last Business $business Message $message";
+    mail('info@scratch-page.com', 'Customer', $message . ' ' . $email);
     header("Location: ./contact.php");
 ?>
