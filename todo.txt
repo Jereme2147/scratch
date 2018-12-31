@@ -1,11 +1,4 @@
 
-menu hightlights
-
-
-links + function (php)
-
-New picture for landing.
-
-Landing spacing.
 
 Meta data / SEO
+1 alt descriptions

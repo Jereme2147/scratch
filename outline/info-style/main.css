@@ -2,7 +2,7 @@
 @media (min-width: 850px) {
 body {
     background-color:  #EBECEC;
-    background-image: url("../../styled-keyboard.png");
+    background-image: url("../../styled-keyboard-dark.png");
 }
 #container {
     /* display: flex; */

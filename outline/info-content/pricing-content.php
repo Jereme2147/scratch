@@ -17,4 +17,7 @@
                         Call or email me for more information on pricing. 
                     </p>
                 </div>
+                <div class="div-images">
+                        <img src="../images/money.png" alt="dollar bills">
+                </div>
     ';

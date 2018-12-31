@@ -11,6 +11,9 @@
         <p><br><br>Use the quick contact form below to send me a message. Alternatively call or use the provided links. 
              I will be in contact quickly. </p>
     </div>
+    <div class="div-images">
+        <img src="../images/landLine.png">
+    </div>
     <div id="email-form" class="div-style">
         <form id="mail-form" action="../php/mail.php" method="POST">
             <input class="inputs"id="first" type="text" name="first" placeholder="First Name">

@@ -9,10 +9,10 @@
     </p><br><br>
     <p>
         Scratch Page is for the business or individual who wants a unique webpage in a world of cookie cutter pages. My goal is to create original and unique content for the lowest cost.  
-        Pages are designed from Scratch. As a small business, we choose to work with other small businesses.
+        Pages are designed from Scratch. As a small business, I choose to work with other small businesses.
     </p>
     <p><br><br>
-        I design our websites with mobile first in mind.  In todays world, the first experience most people will have with your business is from the palm of their hand.  We design pages that will 
+        I design our websites with mobile first in mind.  In todays world, the first experience most people will have with your business is from the palm of their hand.  I design pages that will 
         look and work exactly as you’d like on small and large screens.
     </p><br><br>
     <p>
@@ -21,4 +21,7 @@
     <p>
         As the customer, you\'ll have the option to have access to your code or the convenience of total site maintenance by me. 
     </p>
+</div>
+<div class="div-images">
+    <img src="../images/devices.png" alt="multiple devices">
 </div>';
